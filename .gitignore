@@ -10,3 +10,6 @@ composer.lock
 .env.*.php
 .DS_Store
 Thumbs.db
+
+## local config
+/config/database.php
