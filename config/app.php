@@ -145,6 +145,13 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /**
+         * Zizaco Confide and Entrust Providers...
+         * https://github.com/Zizaco/confide/tree/5.0
+         * https://github.com/Zizaco/entrust/tree/laravel-5
+         */
+        Zizaco\Confide\ServiceProvider::class,
+        Zizaco\Entrust\EntrustServiceProvider::class,
     ],
 
     /*
@@ -193,7 +200,8 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-
+        'Confide'   => Zizaco\Confide\Facade::class,
+        'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
     ],
 
 ];
