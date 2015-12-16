@@ -33,3 +33,17 @@ Route::get('/ventas', function () {
 Route::get('/configuraciones', function () {
     return view('configuraciones');
 });
+
+Route::get('/caja_apertura', function () {
+    return view('caja.caja_apertura');
+});
+
+Route::get('/caja_depositos', function () {
+    return view('caja.caja_depositos');
+});
+Route::get('/caja_arqueo', function () {
+    return view('caja.caja_arqueo');
+});
+Route::get('/caja_cierre', function () {
+    return view('caja.caja_cierre');
+});
