@@ -52,8 +52,8 @@ class CreateSaleProductsTables extends Migration
      */
     public function down()
     {
-        Schema::drop('sales');
-        Schema::drop('products');
         Schema::drop('sales_products');
+        Schema::drop('products');
+        Schema::drop('sales');
     }
 }
