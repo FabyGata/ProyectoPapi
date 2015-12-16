@@ -7,6 +7,7 @@
             <li class="active"><a href="#">Caja</a></li>
             <li><a href="#">Ventas</a></li>
             <li><a href="#">Configuraciones</a></li>
+            <li><a href="#">Usuarios</a></li>
 
         </ul>
     </nav>

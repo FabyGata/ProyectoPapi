@@ -34,6 +34,18 @@ Route::get('/configuraciones', function () {
     return view('configuraciones');
 });
 
+Route::get('/users', function () {
+    return view('users');
+});
+
+Route::get('/users_crear_usuario', function () {
+    return view('users.users_crear_usuario');
+});
+
+Route::get('/users_listar_usuarios', function () {
+    return view('users.users_listar_usuarios');
+});
+
 Route::get('/caja_apertura', function () {
     return view('caja.caja_apertura');
 });
