@@ -41,7 +41,18 @@
          Multiple lines will require custom code not provided by Bootstrap. -->
     <h3 class="text-muted">Project name :v </h3>
 
-@yield('content')
+    <div class="masthead">
+        <nav>
+            <ul class="nav nav-justified">
+                <li><a href="/caja">Caja</a></li>
+                <li><a href="/ventas">Ventas</a></li>
+                <li><a href="/configuraciones">Configuraciones</a></li>
+                <li><a href="/users">Usuarios</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    @yield('content')
 
 </div> <!-- /container -->
 

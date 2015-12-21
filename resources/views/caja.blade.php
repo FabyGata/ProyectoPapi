@@ -1,18 +1,6 @@
 @extends('layouts.default')
 
 @section('content')
-<div class="masthead">
-    <nav>
-        <ul class="nav nav-justified">
-            <li class="active"><a href="#">Caja</a></li>
-            <li><a href="#">Ventas</a></li>
-            <li><a href="#">Configuraciones</a></li>
-            <li><a href="#">Usuarios</a></li>
-
-        </ul>
-    </nav>
-</div>
-
 <div class="row">
 
     <div class="col-md-3 principal-buttons-section" >

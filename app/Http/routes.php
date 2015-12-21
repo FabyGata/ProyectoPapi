@@ -59,3 +59,4 @@ Route::get('/caja_arqueo', function () {
 Route::get('/caja_cierre', function () {
     return view('caja.caja_cierre');
 });
+Route::resource('products', 'ProductsController');
