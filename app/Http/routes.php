@@ -26,9 +26,6 @@ Route::get('/ventas', function () {
     return view('ventas');
 });
 
-//Route::get('/reportes', function () {
-//    return view('reportes');
-//});
 
 Route::get('/configuraciones', function () {
     return view('configuraciones');
@@ -60,3 +57,5 @@ Route::get('/caja_cierre', function () {
     return view('caja.caja_cierre');
 });
 Route::resource('products', 'ProductsController');
+
+Route::resource('opening', 'OpeningController');
