@@ -59,3 +59,16 @@ Route::get('/caja_cierre', function () {
 Route::resource('products', 'ProductsController');
 
 Route::resource('opening', 'OpeningController');
+
+Route::get('/configuraciones_impuesto', function () {
+    return view('configuraciones.configuraciones_impuesto');
+});
+Route::get('/configuraciones_vendedor', function () {
+    return view('configuraciones.configuraciones_vendedor');
+});
+Route::get('/configuraciones_dosificaciones', function () {
+    return view('configuraciones.configuraciones_dosificaciones');
+});
+Route::get('/configuraciones_precios', function () {
+    return view('configuraciones.configuraciones_precios');
+});
